@@ -12,6 +12,13 @@
             "Zuezue\\Crud\\": "src/"
         }
     },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Zuezue\\Crud\\Providers\\CrudServiceProvider"
+            ]
+        }
+    },
     "license": "MIT",
     "minimum-stability": "dev",
     "require": {}
