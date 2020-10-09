@@ -1,0 +1,17 @@
+{
+    "name": "zuezue/crud-generator",
+    "description": "Generate CRUD Operation for api",
+    "authors": [
+        {
+            "name": "zuezuemaung",
+            "email": "zuezuemaung79@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Zuezue\\Crud\\": "src/"
+        }
+    },
+    "license": "MIT",
+    "require": {}
+}
