@@ -6,6 +6,12 @@ In your terminal:
 
 > composer require zuezue/crud-generator
 
+Add service provider to /config/app.php file:
+
+> 'providers' => [
+    Zuezue\Crud\Providers\CrudServiceProvider::class,
+],
+
 # Usage & Features
 
 **make:crud**
