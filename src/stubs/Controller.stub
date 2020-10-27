@@ -9,7 +9,7 @@ class {{modelName}}Controller extends Controller
 {
     public function index()
     {
-        ${{modelNamePluralLowerCase}} = {{modelName}}::latest()->get();
+        ${{modelNamePluralLowerCase}} = {{modelName}}::get();
 
         return response()->json(${{modelNamePluralLowerCase}});
     }
